@@ -44,37 +44,42 @@
             </a>
         </div>
         <div class="icons">
-            <input class="search_query form-control ac_input" type="text" id="search_query_top" name="search_query"
+            <input class="search_query" form="control ac_input" type="text" id="search_query_top" name="search_query"
                 placeholder="Buscar" value="" autocomplete="off">
-                <div class="singleicon"><img src="/Proyecto/akemi/lupa.png"  alt=""></div>
-                <div class="singleicon"><img src="/Proyecto/akemi/candado.png" alt=""></div>
+            <div class="singleicon"><img src="/Proyecto/akemi/lupa.png" alt=""></div>
+            <div class="singleicon"><img src="/Proyecto/akemi/candado.png" alt=""></div>
+
             <div class="container_icon">
-                <img src="/Proyecto/akemi/carrito.svg" alt="Carrito de compras">
-                <div class="count_products"><span class="cart-items-count">0</span></div>
-
+                <div class="contenedor-imagen-carrito">
+                    <img src="/Proyecto/akemi/carrito.svg" alt="Carrito de compras" class="carrito-icon1">
+                    <div class="count_products"><span class="cart-items-count">0</span></div>
+                </div>
                 <div class="container-cart-products hidden-cart">
-                    <div class="cart-product">
-                        <div class="info-cart-product">
-                            <span class="cantidad-producto-carrito">
-                                1
-                            </span>
-                            <p class="titulo-producto-carrito">
-                                VICEROY SMART PRO KIDS 41115-00
-                            </p>
-                            <span class="precio-producto-carrito">
-                                $116.10
-                            </span>
-                            <span class="imgen-carrito">
-                                <img src="https://www.planetarelojes.com/96105-tm_thickbox_default/viceroy-smart-pro-kids-41115-00.jpg"
-                                    alt="">
-                            </span>
+                    <div class="empty_car">
+                        <p>Carrito Vacío</p>
+                    </div>
+                    <button class="empty_cart_button">Vaciar carrito</button>
 
-
+                    <div class="row-product">
+                        <div class="cart-product">
+                            <div class="info-cart-product">
+                                <span class="cantidad-producto-carrito">1</span>
+                                <p class="titulo-producto-carrito">viceroy-smart-pro-kids-41115-00</p>
+                                <span class="precio-producto-carrito">100€</span>
+                                <span class="imgen-carrito">
+                                    <img src="https://www.planetarelojes.com/96105-tm_thickbox_default/viceroy-smart-pro-kids-41115-00.jpg"
+                                        alt="">
+                                </span>
+                            </div>
+                            <span class="delete-product">❌</span>
                         </div>
+                    </div>
+                    <div class="cart-total">
+                        <h3>Total:</h3>
+                        <span class="total-pagar">100</span>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
     <!--                LUCIA               -->
@@ -98,8 +103,11 @@
         <p>¡SOLO HOY!INTRODUCE REBAJAS Y OBTEN UN -10% DE DESCUENTO</p>
     </section>
     <!--                EDGAR               -->
+
+
     <div class="container_productos">
-        <div class="producto">
+ 
+        <!-- <div class="producto">
             <figure>
                 <a href="detalleWomen.html">
                     <img src="/PROYECTO/img/reloj-mujer.jpg" alt="" srcset="">
@@ -107,8 +115,8 @@
             </figure>
             <div class="info_product">
                 <h2>Woman Watch</h2>
-                <p class="price">Desde €100</p>
-                <button>Ver mas</button>
+                <p class="price">€100</p>
+                <button class="btn_add_cart">Añadir al carrito</button>
             </div>
         </div>
         <div class="producto">
@@ -119,10 +127,34 @@
             </figure>
             <div class="info_product">
                 <h2>Men Watch</h2>
-                <p class="price">Desde €160</p>
-                <button>Ver mas</button>
+                <p class="price">€160</p>
+                <button class="btn_add_cart">Añadir al carrito</button>
             </div>
         </div>
+        <div class="producto">
+            <figure>
+                <a href="detalleBoys.html">
+                    <img src="/PROYECTO/img/Girls smart watch.PNG" alt="" srcset="">
+                </a>
+            </figure>
+            <div class="info_product">
+                <h2>Girls smart Watch</h2>
+                <p class="price">€200</p>
+                <button class="btn_add_cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="producto">
+            <figure>
+                <a href="detalleWomen.html">
+                    <img src="/PROYECTO/img/women new modern.PNG" alt="" srcset="">
+                </a>
+            </figure>
+            <div class="info_product">
+                <h2>women new modern</h2>
+                <p class="price">€170</p>
+                <button class="btn_add_cart">Añadir al carrito</button>
+            </div> -->
+        <!-- </div>
         <div class="producto">
             <figure>
                 <a href="detalleBoys.html">
@@ -131,10 +163,22 @@
             </figure>
             <div class="info_product">
                 <h2>Kids Watch</h2>
-                <p class="price">Desde €80</p>
-                <button>Ver mas</button>
+                <p class="price">€80</p>
+                <button class="btn_add_cart">Añadir al carrito</button>
             </div>
         </div>
+        <div class="producto">
+            <figure>
+                <a href="detallesmart.html">
+                    <img src="/PROYECTO/img/smart watch.PNG" alt="" srcset="">
+                </a>
+            </figure>
+            <div class="info_product">
+                <h2>smart watch</h2>
+                <p class="price">€150</p>
+                <button class="btn_add_cart">Añadir al carrito</button>
+            </div>
+        </div>  -->
     </div>
     <!--                ERIKA               -->
     <div class="footer-container">
@@ -253,6 +297,7 @@
             </div>
         </footer>
     </div>
+
     <script src="junto.js"></script>
 
 </body>

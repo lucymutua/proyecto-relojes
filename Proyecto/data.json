@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "nombre": "women watch",
+    "precio": 100,
+    "img": "/PROYECTO/img/reloj-mujer.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 2,
+    "nombre": "men watch",
+    "precio": 160,
+    "img": "/PROYECTO/img/reloj-hombre.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 3,
+    "nombre": "girls smart watch",
+    "precio": 200,
+    "img": "/PROYECTO/img/Girls smart watch.PNG",
+    "cantidad": 1
+  },
+  {
+    "id": 4,
+    "nombre": "women new modern",
+    "precio": 170,
+    "img": "/PROYECTO/img/women new modern.PNG",
+    "cantidad": 1
+  },
+  {
+    "id": 5,
+    "nombre": "kids watch",
+    "precio": 80,
+    "img": "/PROYECTO/img/reloj-boy.jpg",
+    "cantidad": 1
+  },
+  {
+    "id": 6,
+    "nombre": "smart watch",
+    "precio": 150,
+    "img": "/PROYECTO/img/smart watch.PNG",
+    "cantidad": 1
+  }
+]
